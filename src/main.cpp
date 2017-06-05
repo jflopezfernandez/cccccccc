@@ -1,15 +1,14 @@
 
-#include <cstdio>
-#include <cstdlib>
+#include "includes/Main.hpp"
 
-#include <iostream>
 
 
 int main()
 {
-    system("cls");
-    
-    printf("testing...\n");
+    initializeProgram();
 
+    //...
+
+    terminateProgram();
     return EXIT_SUCCESS;
 }
